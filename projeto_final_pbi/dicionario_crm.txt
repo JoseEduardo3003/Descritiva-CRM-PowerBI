@@ -1,0 +1,53 @@
+## 📘 Dicionário de Dados
+
+### 🛍️ Tabela: dClientes 
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| account         | Nome da empresa                                    |
+| sector          | Setor de atuação da empresa                        |
+| year_established| Ano de fundação                                    |
+| revenue         | Receita anual (em milhões de USD)                  |
+| employees       | Número de funcionários                             |
+| office_location | Localização da sede                                |
+| subsidiary_of   | Empresa controladora                               |
+| porte_empresa   | Tamanho da empresa (base: número de funcionários)  |
+
+### 🛍️ Tabela: dEquipes 
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| sales_agent     | Nome do vendedor                                   |
+| manager         | Gerente responsável                                |
+| regional_office | Região do escritório                               |
+
+### 🛍️ Tabela: dProdutos 
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| product         | Nome do produto                                    |
+| series          | Linha/Série do produto                             |
+| sales_price     | Preço de venda sugerido                            |
+
+### 🛍️ Tabela: fProcessos 
+
+| Campo           | Descrição                                          |
+|-----------------|----------------------------------------------------|
+| opportunity_id  | Identificador único da oportunidade de venda       |
+| sales_agent     | Nome do vendedor                                   |
+| product         | Nome do produto                                    |
+| account         | Nome da empresa (cliente)                          |
+| deal_stage      | Etapa da negociação                                |
+| engage_date     | Data de início da etapa de engajamento             |
+| close_date      | Data de fechamento da oportunidade                 |
+| close_value     | Tamanho da empresa (base: número de funcionários)  |
+| ciclo_de_venda  | Contagem de dias entre engajamento e fechamento    |
+| faixa_CicloFechamento| Classificação pelo ciclo de venda             |
+
+
+
+
+
+
+
+
