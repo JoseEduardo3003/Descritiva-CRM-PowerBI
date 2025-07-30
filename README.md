@@ -14,6 +14,12 @@ O dataset contém quatro planilhas com dados referentes à:
 
 ---
 
+## 📚 Dicionário de Dados (resumo)
+
+Para o dicionário completo, veja [aqui](./projeto_final_pbi/dicionario_crm.txt).
+
+---
+
 ## 🎯 Objetivos da Análise
 
 - Monitorar o desempenho de vendas.
@@ -45,38 +51,10 @@ O dataset contém quatro planilhas com dados referentes à:
 ## 🛠️ Ferramentas Utilizadas
 
 - **Power BI Desktop**
-- Modelagem de dados
 - Power Query para ETL
+- Modelagem de dados
 - Medidas DAX
 - Visualizações interativas
-
----
-
-## 📚 Dicionário de Dados
-
-| Tabela           | Campo              | Descrição                                                        |
-| ---------------- | ------------------ | ---------------------------------------------------------------- |
-| `accounts`       | `account`          | Nome da empresa                                                  |
-| `accounts`       | `sector`           | Setor da empresa                                                 |
-| `accounts`       | `year_established` | Ano de fundação                                                  |
-| `accounts`       | `revenue`          | Receita anual (em milhões de USD)                                |
-| `accounts`       | `employees`        | Número de funcionários                                           |
-| `accounts`       | `office_location`  | Localização da sede                                              |
-| `accounts`       | `subsidiary_of`    | Empresa controladora                                             |
-| `products`       | `product`          | Nome do produto                                                  |
-| `products`       | `series`           | Série ou linha do produto                                        |
-| `products`       | `sales_price`      | Preço de venda sugerido                                          |
-| `sales_teams`    | `sales_agent`      | Nome do vendedor                                                 |
-| `sales_teams`    | `manager`          | Gerente responsável                                              |
-| `sales_teams`    | `regional_office`  | Escritório regional                                              |
-| `sales_pipeline` | `opportunity_id`   | Identificador único da oportunidade de venda                     |
-| `sales_pipeline` | `sales_agent`      | Nome do vendedor                                                 |
-| `sales_pipeline` | `product`          | Nome do produto ofertado                                         |
-| `sales_pipeline` | `account`          | Nome da empresa prospectada                                      |
-| `sales_pipeline` | `deal_stage`       | Etapa da negociação (Prospecção > Engajamento > Ganha / Perdida) |
-| `sales_pipeline` | `engage_date`      | Data de início da etapa de engajamento                           |
-| `sales_pipeline` | `close_date`       | Data de fechamento da oportunidade (ganha ou perdida)            |
-| `sales_pipeline` | `close_value`      | Receita gerada com o fechamento da oportunidade                  |
 
 ---
 
