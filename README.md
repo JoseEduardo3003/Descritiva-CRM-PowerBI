@@ -1,5 +1,5 @@
 # 📊 Análise Descritiva de CRM no Power BI
-Dashboard realizado para mostrar uma Análise Descritiva de um CRM de 2017 extraído do Maven Analytics. A análise abrange os principais aspectos de Vendas, Vendedores, Clientes e Produtos.
+Projeto de análise descritiva com dados CRM, utilizando Power BI para analisar o desempenho da equipe de vendas, a parte final do funil de vendas e o perfil dos clientes. O objetivo foi simular uma análise real para apoiar a gestão estratégica de oportunidades.
 
 ---
 
